@@ -1,0 +1,685 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+  height: 90vh;
+    display: flex;
+    flex-direction: column;
+   
+    padding-top: 0%;
+}
+header video{
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+}
+
+
+ header nav{
+    height: 70px;
+    width: 90%;
+    background-color: #ebe3e3d3; 
+    border-radius: 35px;
+    margin: 0 auto;
+    
+    position: sticky;
+    top: 20px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+nav img{
+  height: 50px;
+  border-radius: 30px;
+}
+nav #links{
+    display: flex;
+    gap: 30px;}
+    
+    nav #links a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav .firstpage input{
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 7px;
+}
+nav .firstpage .ri-contacts-fill{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+header{
+   
+    display: flex;
+    align-items: center;
+    
+}
+header .firstpage-1{
+   
+    position: relative;
+   top: 50%;
+
+}
+header .firstpage-1 input{
+    font-size: 30px;
+    background-color: #ffffff4f;
+    width:600px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    
+}
+.second{
+    height: 100vh;
+    width: 100%;
+    background-color:white;
+    text-align: center;
+    
+}
+.second h2{
+    font-size: 40px;
+    padding-top: 20px;
+    align-items: center;
+   
+}
+.second .second-1{
+    width: 100%;
+    height: 680px;
+    display: flex;
+   flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    
+}
+.second .second-1 .second-2{
+    display: flex;
+    width: 23%;
+    height: 85%;
+    background-image: url(assets/c.jpeg);
+    background-size: cover;
+    align-items: flex-end;
+}
+
+
+.second .second-1 .second-2:hover{
+    box-shadow: 7px 6px 13px 4px #5a6398;
+background-color: rgb(176, 176, 246);
+transition: 0.3s ease-in;
+}
+.second .second-1 .second-2 h3{
+    font-size: 20px;
+    transform: translateZ(20px);
+      color: white;
+      padding-bottom: 20px;
+      padding-left: 20px;
+    cursor: pointer;
+   
+}
+
+.second .second-1 .second-3{
+    display: flex;
+    align-items: flex-end;
+    width:23%;
+    height: 85%;
+     background-image: url(assets/Timeless\ Elegance\ on\ Wheels_\ The\ Legacy\ of\ Vintage\ Porsche\ Cars.jpeg);
+    background-size: cover;
+
+}
+.second .second-1 .second-3:hover{
+    box-shadow: 7px 6px 13px 4px #5a6398;
+background-color: rgb(176, 176, 246);
+transition: 0.3s ease-in;
+}
+.second .second-1 .second-3 h3{
+    font-size: 20px;
+    transform: translateZ(20px);
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.second .second-1 .second-4{
+    display: flex;
+    align-items: flex-end;
+    width:23%;
+    height: 85%;
+   background-image: url(assets/download\ \(11\).jpeg);
+    background-size: cover;
+}
+.second .second-1 .second-4:hover{
+    box-shadow: 7px 6px 13px 4px #5a6398;
+background-color: rgb(176, 176, 246);
+transition: 0.3s ease-in;
+}
+.second .second-1 .second-4 h3{
+    font-size: 20px;
+    transform: translateZ(20px);
+      color: white;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      cursor: pointer;
+}
+
+.second .second-1 .second-5{
+      display: flex;
+    align-items: flex-end;
+    width:23%;
+    height: 85%;
+     background-image: url(assets/download\ \(9\).jpeg);
+    background-size: cover;
+}
+.second .second-1 .second-5:hover{
+    box-shadow: 7px 6px 13px 4px #5a6398;
+background-color: rgb(176, 176, 246);
+transition: 0.3s ease-in;
+}
+.second .second-1 .second-5 h3{
+    font-size: 20px;
+    transform: translateZ(20px);
+      color: white;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      cursor: pointer;
+}
+.mid{
+    height: 36vh;
+    width: 100%;
+    background-color: #fcfafa;
+
+}
+.mid .midpart{
+    height: 36vh;
+    width: 100%;
+    display: flex;
+   flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   background-color:black;
+   transform: translateZ(20px)
+}
+
+.mid .midpart .midpart-1{
+    display: flex;
+    align-items: center;
+   transform-style: preserve-3d
+  
+}
+.mid .midpart .midpart-1 img{
+    height: 185px;
+    width: 175px;
+  
+
+}
+.mid .midpart .midpart-1 h3{
+    width: 196px;
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+}
+
+.last{
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/ford-mustang-shelby-gt500-sky-lights-zq-1920x1080.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    margin: 0 auto;
+
+}
+.last .last-1{
+    height: 400px;
+    align-items: center;
+}
+.last .last-1 h3{
+    width: 650px;
+    font-size:40px;
+    color: white;
+    
+}
+.last .last-1 button{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+   border: none;
+    background-color: black;
+    border-radius: 20px;
+   margin-top:  20px;
+
+}
+.end{
+    height: 45vh;
+    width: 100%;
+    background-image: url(assets/photo-1612544448445-b8232cff3b6c.jpg);
+    background-size:cover;
+    background-position: center;     
+}
+.end .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.754);
+    
+}
+.overlay .end-1{
+    width: 100%;
+    height: 356px;
+   display: flex;
+   flex-direction: row;
+  align-items: center;
+   
+
+}
+.overlay .end-1 .bb{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+
+
+}
+.overlay .end-1 .bb .ri-mail-line{
+    color: white;
+    font-size: 60px;
+   
+   
+}
+.overlay .end-1 .bb .a{
+    color: white;
+     padding-left: 20px;
+}
+.overlay .end-1 .bb .a h3{
+    padding-top: 10px;
+    color: orange;
+}
+.overlay .end-1 .bb .a p{
+    padding-top: 4px;
+    font-size: 17px;
+}
+    
+
+.overlay .end-2{
+    width: 100%;
+    display: flex;
+
+}
+.overlay .end-2 input{
+    font-size: 30px;
+    background-color: #fbf9f9da;
+    width:550px;
+    height: 40px;
+    border: none;
+}
+.overlay .end-2 button{
+    width:10%;
+    font-size: 20px;
+    color: rgb(21, 21, 21);
+    background-color: orange;
+    border: none;
+   margin-left: 10px;
+}
+footer{
+    height: 64vh;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.754);
+}
+footer .over{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+footer .over .over-1{
+    width: 30%;
+    height: 300px;
+   
+   
+}
+footer .over .over-1 h3{
+    font-size: 25px;
+    color: white;
+    margin-bottom:  20px;
+}
+footer .over .over-1 .x {
+display: flex;
+flex-direction: row;
+margin-top: 30px;
+
+}
+footer .over .over-1 .x .ri-customer-service-2-line{
+    color: orange;
+    font-size: 40px;
+}
+footer .over .over-1 .x .p{
+    margin-left: 10px;
+}
+footer .over .over-1 .x .p p{
+    font-size: 18px;
+    margin-bottom: 5px;
+      font-weight: 200;
+      color: orange;
+
+}
+footer .over .over-1 .x .p h5{
+    font: 17px;
+      font-weight: 200;
+}
+
+
+footer .over .over-1 .y {
+display: flex;
+flex-direction: row;
+margin-top: 30px;
+
+}
+footer .over .over-1 .y .ri-map-pin-fill{
+    color: orange;
+    font-size: 40px;
+}
+footer .over .over-1 .y .q{
+    margin-left: 10px;
+}
+footer .over .over-1 .y .q p{
+    font-size: 18px;
+    margin-bottom: 5px;
+     color: orange;
+       font-weight: 200;
+
+}
+footer .over .over-1 .y .q h5{
+    font: 17px;
+      font-weight: 200;
+}
+
+
+footer .over .over-1 .z {
+display: flex;
+flex-direction: row;
+margin-top: 30px;
+
+
+}
+footer .over .over-1 .z .ri-mail-ai-line{
+    color: orange;
+    font-size: 40px;
+}
+footer .over .over-1 .z .r{
+    margin-left: 10px;
+}
+footer .over .over-1 .z .r p{
+    font-size: 18px;
+    margin-bottom: 5px;
+     color: orange;
+       font-weight: 200;
+
+}
+footer .over .over-1 .z .r h5{
+    font: 17px;
+      font-weight: 200;
+}   
+
+
+footer .over .over-2{
+    width: 30%;
+    height: 300px;
+    
+   
+}
+footer .over .over-2 h3{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 27px;
+}
+footer .over .over-2 p{
+    margin-top: 5px;
+    font-size:16px;
+    padding-bottom: 14px;
+    
+}
+
+footer .over .over-3{
+    width: 30%;
+    height: 300px;
+    
+}
+footer .over .over-3 h3{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 27px;
+}
+footer .over .over-3 p{
+    margin-top: 5px;
+    font-size:16px;
+    padding-bottom: 14px;
+    
+}
+/* @media( max-width : 1900px){
+    footer {
+    height: 37vh;}
+
+nav .firstpage input {
+    font-size: 25px;
+}
+} */
+
+@media( max-width : 1476px){
+   
+.mid .midpart .midpart-1 {
+    display: flex;
+    flex-direction: column;
+}
+/* .last {
+    height: 78vh;
+} */
+.second .second-1 {
+    width: 100%;
+    height: 565px;
+}
+ /* .second {
+    height: 58vh;} */
+}
+@media(max-width :1295px){
+
+.end .overlay .end-2 input {
+    font-size: 24px;
+    background-color: #fbf9f9da;
+    width: 360px;
+    height: 40px;
+    border: none;
+}
+.end .overlay .end-2 {
+    width: auto;
+    display: flex;
+
+}
+    .end .overlay .end-1 {
+        width: 100%;
+        height: 356px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+.overlay .end-2 button {
+    width: 100%;
+    font-size: 18px;
+    color: rgb(21, 21, 21);
+    background-color: orange;
+    border: none;
+    margin-left: 10px;
+}
+footer .over .over-1 {
+    width: 33%;
+}
+footer .over .over-2 {
+     width:26%;}
+
+ footer .over .over-3 {
+    width: 16%;}
+
+
+ }
+
+
+
+@media(max-width :1006px){
+nav .firstpage input {
+    font-size: 16px;
+}
+  
+    .second .second-1 {
+        width: 100%;
+        height: 401px;
+    }
+        .second {
+        height: 75vh;
+    }
+  header .firstpage-1 input {
+    font-size: 23px;
+    background-color: #ffffff4f;
+    width: 530px;  
+}
+}
+footer .over .over-1 h3 {
+    font-size: 21px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 16px;
+}
+
+@media(max-width :850px){
+nav .firstpage input {
+    font-size: 13px;
+}
+nav #links a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+}
+
+@media(max-width:764px){
+
+
+nav .firstpage input {
+        font-size: 11px;
+    }
+
+nav .firstpage input {
+    margin-bottom: 6px;
+}
+nav #links a {
+    font-size: 13px;
+}
+nav .firstpage .ri-contacts-fill {
+    font-size: 18px;
+}
+footer .over .over-2 h3 {
+    font-size: 20px;
+}
+.mid {
+    height: 145vh;
+    width: 100%;
+    background-color: #000000;}
+.mid .midpart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;}
+    
+   .last{
+    height: 67vh;
+   } 
+    
+.last .last-1 h3 {
+    width: 555px;
+    font-size: 29px;
+    color: white;
+}
+.last .last-1 {
+    height: 300px;
+}
+}
+@media(max-width:656px){
+    footer .over .over-1 .x .p p {
+    font-size: 14px;
+}
+footer .over .over-3 h3 {
+    font-size: 17px;}
+
+footer .over .over-2 h3 {
+    font-size: 17px;}
+
+footer .over .over-1 h3 {
+    font-size: 17px;}
+
+ footer .over .over-2 p {
+    font-size: 14px;
+}
+footer .over .over-3 p {
+   
+    font-size: 14px;}
+footer .over .over-1 p {
+
+    font-size: 14px;
+}
+        
+    
+
+nav .firstpage input {
+    margin-bottom: 5px;
+    font-size: 7px;
+}
+}
+@media (max-width:480px){
+        header .firstpage-1 input {
+        font-size: 19px;
+        background-color: #ffffff4f;
+        width: 336px;
+    }
+    nav img {
+    height: 30px;}
+
+        nav .firstpage input {
+        
+        font-size: 4px;}
+
+    nav #links {
+
+    gap: 8px;
+}
+        nav .firstpage .ri-contacts-fill {
+        font-size: 14px;
+    }
+
+        .last {
+        height: 54vh;
+    }
+}
+    .last .last-1 h3 {
+        width: 343px;
+        font-size: 25px;
+        color: white;
+    }
+
